@@ -1,6 +1,7 @@
 GRUPO 1 ( Página Web de Reviews Generales )
 
 PÁGINAS SIMILARES:
+
 https://www.levelup.com/juegos
 
 https://geeky.com.ar/videojuegos/review-juegos/
