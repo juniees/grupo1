@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(_dirname, "./views/index.html"));
 });
 
-app.listen(3000, () => console.log("http://localhost3000"));
+app.listen(3000, () => console.log("http://localhost:3000"));
 
 /* app.listen(port, () => {
   console.log(`Servidor corriendo ${port}`)
