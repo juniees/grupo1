@@ -25,4 +25,4 @@ COLUMNAS Y MÁS.
 Hay contenido dividido en 3 columnas donde ponen las noticias más recientes enlistadas, los juegos con contenido exclusivo de algunas reseñas y artíiculos destacados, y la última columna las listas de los juegos que saldrán a la venta en los próximos días. Otro carrusel con ofertas de juegos y accesorios para vender en otra página. Enlace al canal de videos de presentaciones, noticias, etc. más noticias en grilla ordenadas desde la más recientes hacia las primeras que no fueron destacadas anteriormente. Finaliza con una barra que lleva a todas las redes sociales y modos de comunicación con la página. Y la empresa desarroladora de la web.
 
 ITEGRANTES DEL GRUPO 1: 
-José Contreras, Juan Álvarez, María Victoria Herrera.
+Juan Álvarez, María Victoria Herrera.
