@@ -4,21 +4,27 @@
   padding: 0;
 }
 body {
-  background-color:#ec72addc ;
+  background-color: #ec72addc;
   margin: 1px, 3px, 2px;
-  }
+}
 
-  header { (border: solid 2px rgba(245, 120, 5, 0.83); 
-          width: 1390px;
-         height: 73px;)
-            h1( font-style:new time; 
-                font-size: ;
-
-)
-
-  }
-
-@media (max-width: 460px) {
+header {
+  border: solid 2px rgba(245, 120, 5, 0.83);
+  width: 1390px;
+  height: 73px;
+}
+.logo {
+  display: flex;
+  justify-content: start;
+  width: 30vw;
+  height: 69px;
+}
+h2 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 36px;
+}
+@media (min-width: 460px) {
   body {
     background-color: rgba(155, 192, 24, 0.985);
   }
