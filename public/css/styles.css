@@ -52,11 +52,47 @@ p {
   font-style: italic;
 }
 
-footer {
-  display: flex;
-  border-style: double;
+.pie-pagina{
   width: 100%;
-  height: 70px;
+  background-color: #488b1b;
+}
+.pie-pagina .grupo-1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50pxp;
+  padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+  width: 150px;
+  text-align: center;
+
+}
+.pie-pagina .grupo-1 .box h2{
+color:black;
+margin-bottom: 25px;
+font-size: 20px;
+
+}
+.pie-pagina .grupo-1 .box p{
+  color:black;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.pie-pagina .grupo-2{
+  text-align: center;
+}
+.pie-pagina .grupo-2 small{
+  font-size: 15px;
 }
 p {
   font-size: smaller;
