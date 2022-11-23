@@ -31,13 +31,22 @@ h2 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 36px;
 }
-.Destacado-Semanal {
+.destacado-semanal {
   display: flex;
   padding: 10px;
   margin-top: 2em;
   margin-right: 2em;
 }
-
+.articulo{
+  width: 50vw;
+  height: 150px;
+  border:solid 2px
+  
+}
+.articulo img{
+  width: 25%;
+  height: 180px;
+}
 p {
   font-size: small;
   font-style: italic;
