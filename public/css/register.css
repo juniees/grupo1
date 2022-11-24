@@ -4,21 +4,19 @@
   padding: 0;
 }
 body {
-    background-color: rgb(232, 155, 199);
-    margin: 1px, 3px, 2px;
+  margin: 1px, 3px, 2px;
 }
-    
 
 header {
   display: flex;
-  box-sizing: content-box ;
+  box-sizing: content-box;
   border: solid 2px rgba(245, 120, 5, 0.83);
   background-color: rgba(245, 120, 5, 0.83);
   width: 100%;
   height: 120px;
 }
 
-.logo {
+header .logo {
   display: flex;
   justify-content: left;
   width: 30%;
@@ -26,24 +24,75 @@ header {
 }
 
 h3 {
-  display: flex;
+  margin: 10vw;
   font-size: xx-large;
-    font-family: Arial, Helvetica, sans-serif;
-    align-content: space-around;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
- }
-
-.formulario-register {
-  display: flex;
-  justify-content: center;
-  border-style: groove;
-  margin-top: 200px;
-  font-size: medium;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
+.formulario-register {
+  margin: 15vw;
+  display: flex;
+  border-style: solid 3px;
+  justify-content: center;
+  margin-top: 100px;
+  font-size: 24px;
+  font-family: Arial;
+}
+.formulario-register .botones {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.formulario-register .cancelar button {
+  width: auto;
+  height: 50px;
+  margin: 20px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
+  background-color: rgba(251, 92, 13, 0.927);
+  letter-spacing: normal;
+}
+.formulario-register .enviar button {
+  width: auto;
+  height: 50px;
+  margin: 20px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
+  background-color: rgba(19, 254, 172, 0.927);
+  letter-spacing: normal;
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  body {
+    background-color: rgb(232, 155, 199);
+  }
+}
+
+/*Mobile large  */
+@media (min-width: 481px) {
+  body {
+    background-color: rgb(144, 245, 211);
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  body {
+    background-color: rgb(86, 129, 170);
+  }
+}
+/* Desktops and monitors */
+@media (min-width: 1200px) {
+  body {
+    background-color: rgb(237 235 164 / 74%);
+  }
+}
+
+/*
 @media (max-width: 1000px) {
   body {
     background-color: rgb(232, 155, 199);
@@ -59,4 +108,4 @@ h3 {
   body {
     background-color: rgba(155, 192, 24, 0.985);
   }
-}
+}   */

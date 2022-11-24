@@ -14,8 +14,8 @@
       </div>
     </header>
 
-    <div class="contenedor-formulario-login">
-      <h3>Ingresar</h3>
+    <h3>Ingresar</h3>
+    <div class="formulario-login">
       <form action="/login" method="POST">
         <div>
           <label for="nombre">Nombre usuario</label>
@@ -26,8 +26,14 @@
           <label for="password">Contraseña</label>
           <input type="password" name="clave" />
         </div>
-        <button type="reset">Cancelar </button>
-        <button type="submit">Entrar </button>
+        <div class="botones">
+          <div class="cancelar">
+            <button type="reset">Cancelar</button>
+          </div>
+          <div class="entrar">
+            <button type="submit">Entrar</button>
+          </div>
+        </div>
       </form>
     </div>
     <footer></footer>
